@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Wisata Batam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-banner">
+    <video autoplay muted loop class="video-bg">
+      <source src="videoheader.mp4" type="video/mp4">
+    </video>
+    <div class="header-content">
+      <img src="logo pantai.jpg" alt="Logo Pulau" class="logo">
+      <div class="title">
+        <h1>Dimas Wisata</h1>
+        <p>Jelajahi Keindahan, Ciptakan Cerita</p>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="pendaftaran.html">Pendaftaran</a>
+  </nav>
+</header>
+<main>
+  <section class="form-section">
+    <h2>Form Pendaftaran Wisata</h2>
+    <p class="subtext">Silahkan isi data diri Anda untuk melakukan pendaftaran pariwisata.</p>
+    <form>
+      
+      <div class="form-row">
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama lengkap">
+      </div>
+
+      <div class="form-row">
+        <label>Email</label>
+        <input type="email" placeholder="contoh@email.com">
+      </div>
+
+      <div class="form-row">
+        <label>Nomor HP</label>
+        <input type="tel" placeholder="08xxxxxxxx">
+      </div>
+
+      <div class="form-row">
+        <label>Jenis Kelamin</label>
+        <div class="gender">
+          <input type="radio" name="gender" id="male">
+          <label for="male">Laki-laki</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female">Perempuan</label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Aktivitas Wisata yang Diminati</label>
+        <div class="activities">
+          <label><input type="checkbox"> Snorkeling</label>
+          <label><input type="checkbox"> Diving</label>
+          <label><input type="checkbox"> Island Hopping</label>
+          <label><input type="checkbox"> Kuliner</label>
+          <label><input type="checkbox"> Fotografi</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Destinasi Wisata</label>
+        <select>
+          <option>Pilih destinasi wisata</option>
+          <option>Pantai Vio Vio</option>
+          <option>Pulau Abang</option>
+          <option>Pantai Melayu</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>Catatan / Permintaan Khusus</label>
+        <textarea placeholder="Tuliskan catatan atau permintaan khusus Anda di sini..."></textarea>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="btn-primary">Kirim</button>
+        <button type="reset" class="btn-secondary">Reset</button>
+      </div>
+    </form>
+    <a href="home.html" class="back-link"> Kembali ke Halaman Utama</a>
+  </section>
+</main>
+<footer class="footer">
+  <p>&copy; 2026 Muhammad Dimas Alvin Pratama</p>
+</footer>
+</body>
+</html>
